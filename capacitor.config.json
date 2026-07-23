@@ -1,0 +1,10 @@
+{
+  "appId": "com.origin.tracker",
+  "appName": "ORIGIN",
+  "webDir": "www",
+  "backgroundColor": "#16130F",
+  "ios": {
+    "contentInset": "always",
+    "backgroundColor": "#16130F"
+  }
+}

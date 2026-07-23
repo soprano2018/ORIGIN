@@ -1,0 +1,19 @@
+{
+  "name": "origin-app",
+  "version": "1.2.0",
+  "description": "ORIGIN — configurable personal tracking & planning (Action Trace Principle). Single-file web app, PWA-ready, Capacitor iOS shell.",
+  "private": true,
+  "scripts": {
+    "serve": "npx http-server www -p 8080",
+    "ios:add": "npx cap add ios",
+    "ios:sync": "npx cap sync ios",
+    "ios:open": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0"
+  }
+}
